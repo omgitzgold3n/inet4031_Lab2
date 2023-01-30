@@ -1,0 +1,113 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Jan29 ?        00:00:01 /sbin/init maybe-ubiquity
+root           2       0  0 Jan29 ?        00:00:00 [kthreadd]
+root           3       2  0 Jan29 ?        00:00:00 [rcu_gp]
+root           4       2  0 Jan29 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 Jan29 ?        00:00:00 [kworker/0:0H-kblockd]
+root           8       2  0 Jan29 ?        00:00:00 [mm_percpu_wq]
+root           9       2  0 Jan29 ?        00:00:00 [ksoftirqd/0]
+root          10       2  0 Jan29 ?        00:00:03 [rcu_sched]
+root          11       2  0 Jan29 ?        00:00:00 [migration/0]
+root          12       2  0 Jan29 ?        00:00:00 [idle_inject/0]
+root          14       2  0 Jan29 ?        00:00:00 [cpuhp/0]
+root          15       2  0 Jan29 ?        00:00:00 [kdevtmpfs]
+root          16       2  0 Jan29 ?        00:00:00 [netns]
+root          17       2  0 Jan29 ?        00:00:00 [rcu_tasks_kthre]
+root          18       2  0 Jan29 ?        00:00:00 [kauditd]
+root          19       2  0 Jan29 ?        00:00:00 [khungtaskd]
+root          20       2  0 Jan29 ?        00:00:00 [oom_reaper]
+root          21       2  0 Jan29 ?        00:00:00 [writeback]
+root          22       2  0 Jan29 ?        00:00:00 [kcompactd0]
+root          23       2  0 Jan29 ?        00:00:00 [ksmd]
+root          24       2  0 Jan29 ?        00:00:00 [khugepaged]
+root          70       2  0 Jan29 ?        00:00:00 [kintegrityd]
+root          71       2  0 Jan29 ?        00:00:00 [kblockd]
+root          72       2  0 Jan29 ?        00:00:00 [blkcg_punt_bio]
+root          73       2  0 Jan29 ?        00:00:00 [tpm_dev_wq]
+root          74       2  0 Jan29 ?        00:00:00 [ata_sff]
+root          75       2  0 Jan29 ?        00:00:00 [md]
+root          76       2  0 Jan29 ?        00:00:00 [edac-poller]
+root          77       2  0 Jan29 ?        00:00:00 [devfreq_wq]
+root          78       2  0 Jan29 ?        00:00:00 [watchdogd]
+root          81       2  0 Jan29 ?        00:00:00 [kswapd0]
+root          82       2  0 Jan29 ?        00:00:00 [ecryptfs-kthrea]
+root          84       2  0 Jan29 ?        00:00:00 [kthrotld]
+root          85       2  0 Jan29 ?        00:00:00 [acpi_thermal_pm]
+root          86       2  0 Jan29 ?        00:00:00 [scsi_eh_0]
+root          87       2  0 Jan29 ?        00:00:00 [scsi_tmf_0]
+root          88       2  0 Jan29 ?        00:00:00 [scsi_eh_1]
+root          89       2  0 Jan29 ?        00:00:00 [scsi_tmf_1]
+root          91       2  0 Jan29 ?        00:00:00 [vfio-irqfd-clea]
+root          93       2  0 Jan29 ?        00:00:00 [ipv6_addrconf]
+root         102       2  0 Jan29 ?        00:00:00 [kstrp]
+root         105       2  0 Jan29 ?        00:00:00 [kworker/u3:0]
+root         118       2  0 Jan29 ?        00:00:00 [charger_manager]
+root         120       2  0 Jan29 ?        00:00:00 [kworker/0:1H-kblockd]
+root         154       2  0 Jan29 ?        00:00:00 [scsi_eh_2]
+root         156       2  0 Jan29 ?        00:00:00 [scsi_tmf_2]
+root         176       2  0 Jan29 ?        00:00:00 [cryptd]
+root         189       2  0 Jan29 ?        00:00:01 [irq/18-vmwgfx]
+root         191       2  0 Jan29 ?        00:00:00 [ttm_swap]
+root         206       2  0 Jan29 ?        00:00:00 [kdmflush]
+root         232       2  0 Jan29 ?        00:00:00 [raid5wq]
+root         279       2  0 Jan29 ?        00:00:00 [jbd2/dm-0-8]
+root         280       2  0 Jan29 ?        00:00:00 [ext4-rsv-conver]
+root         350       1  0 Jan29 ?        00:00:00 /lib/systemd/systemd-journald
+root         373       2  0 Jan29 ?        00:00:00 [ipmi-msghandler]
+root         381       1  0 Jan29 ?        00:00:00 /lib/systemd/systemd-udevd
+root         395       2  0 Jan29 ?        00:00:00 [iprt-VBoxWQueue]
+root         533       2  0 Jan29 ?        00:00:00 [kaluad]
+root         534       2  0 Jan29 ?        00:00:00 [kmpath_rdacd]
+root         535       2  0 Jan29 ?        00:00:00 [kmpathd]
+root         536       2  0 Jan29 ?        00:00:00 [kmpath_handlerd]
+root         537       1  0 Jan29 ?        00:00:01 /sbin/multipathd -d -s
+root         550       2  0 Jan29 ?        00:00:00 [loop0]
+root         553       2  0 Jan29 ?        00:00:00 [loop1]
+root         554       2  0 Jan29 ?        00:00:00 [loop2]
+root         556       2  0 Jan29 ?        00:00:00 [loop3]
+root         557       2  0 Jan29 ?        00:00:00 [loop4]
+root         559       2  0 Jan29 ?        00:00:00 [jbd2/sda2-8]
+root         560       2  0 Jan29 ?        00:00:00 [ext4-rsv-conver]
+systemd+     574       1  0 Jan29 ?        00:00:00 /lib/systemd/systemd-timesyncd
+systemd+     618       1  0 Jan29 ?        00:00:00 /lib/systemd/systemd-networkd
+systemd+     620       1  0 Jan29 ?        00:00:00 /lib/systemd/systemd-resolved
+root         633       1  0 Jan29 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root         636       1  0 Jan29 ?        00:00:00 /usr/sbin/cron -f
+message+     637       1  0 Jan29 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         644       1  0 Jan29 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         645       1  0 Jan29 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       646       1  0 Jan29 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         648       1  0 Jan29 ?        00:00:02 /usr/lib/snapd/snapd
+root         650       1  0 Jan29 ?        00:00:00 /lib/systemd/systemd-logind
+root         652       1  0 Jan29 ?        00:00:00 /usr/lib/udisks2/udisksd
+daemon       653       1  0 Jan29 ?        00:00:00 /usr/sbin/atd -f
+root         661       1  0 Jan29 tty1     00:00:00 /bin/login -p --
+root         688       1  0 Jan29 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         699       1  0 Jan29 ?        00:00:00 /usr/sbin/ModemManager
+root         718       1  0 Jan29 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+omgitzg+     984       1  0 Jan29 ?        00:00:00 /lib/systemd/systemd --user
+omgitzg+     985     984  0 Jan29 ?        00:00:00 (sd-pam)
+omgitzg+     990     661  0 Jan29 tty1     00:00:00 -bash
+root        1182     688  0 Jan29 ?        00:00:00 sshd: omgitzgold3n [priv]
+omgitzg+    1267    1182  0 Jan29 ?        00:00:01 sshd: omgitzgold3n@pts/0
+omgitzg+    1268    1267  0 Jan29 pts/0    00:00:00 -bash
+root        1861    1268  0 Jan29 pts/0    00:00:00 sudo apt-get update
+root        1863    1861  0 Jan29 pts/0    00:00:00 apt-get update
+root        2092    1863  0 Jan29 pts/0    00:00:00 apt-get update
+root        2137    2092  0 Jan29 pts/0    00:00:00 sh -c /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true
+root        2138    2137  0 Jan29 pts/0    00:00:00 /bin/sh -e /usr/lib/update-notifier/update-motd-updates-available
+root        2152    2138  0 Jan29 pts/0    00:00:05 /usr/bin/python3 /usr/lib/update-notifier/apt-check --human-readable
+root        2193    2152  0 Jan29 pts/0    00:00:00 /usr/bin/python3 -Es /usr/bin/lsb_release -c -s
+root        2194    1268  0 Jan29 pts/0    00:00:00 sudo apt-get install gcc
+root        2195    2194  0 Jan29 pts/0    00:00:01 apt-get install gcc
+root        2511    2195  0 Jan29 ?        00:00:00 [dpkg] <defunct>
+omgitzg+   17637    1268  0 Jan29 pts/0    00:00:00 git push
+omgitzg+   17638   17637  0 Jan29 pts/0    00:00:00 /usr/lib/git-core/git-remote-https origin https://github.com/omgitzgold3n/inet4031_Lab2.git
+root       17731       2  0 00:00 ?        00:00:04 [kworker/0:3-events]
+omgitzg+   17760    1268  0 00:11 pts/0    00:00:00 nano hello.sh
+root       17783       2  0 00:22 ?        00:00:00 [kworker/u2:1-events_power_efficient]
+omgitzg+   17788    1268  0 00:24 pts/0    00:00:00 nano fileprocessor.py
+root       17850       2  0 00:40 ?        00:00:00 [kworker/0:1-cgroup_destroy]
+root       17871       2  0 00:49 ?        00:00:00 [kworker/u2:2-events_unbound]
+root       17897       2  0 01:02 ?        00:00:00 [kworker/u2:0-events_power_efficient]
+omgitzg+   17913    1268  0 01:05 pts/0    00:00:00 ps -ef
